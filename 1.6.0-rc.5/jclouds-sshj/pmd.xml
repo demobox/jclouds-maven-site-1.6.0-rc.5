@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-04-23T18:44:25.824">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.0-rc.5/drivers/sshj/src/main/java/org/jclouds/sshj/SSHClientConnection.java">
+<violation beginline="119" endline="121" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.sshj" class="SSHClientConnection" method="clear" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.0-rc.5/drivers/sshj/src/main/java/org/jclouds/sshj/SshjSshClient.java">
+<violation beginline="19" endline="558" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.sshj" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.0-rc.5/drivers/sshj/src/main/java/org/jclouds/sshj/config/SshjSshClientModule.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.sshj.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.domain.Credentials'
+</violation>
+</file>
+</pmd>
