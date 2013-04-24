@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-04-24T10:05:27.056">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.0-rc.5/providers/glesys/src/main/java/org/jclouds/glesys/compute/GleSYSComputeServiceAdapter.java">
+<violation beginline="19" endline="277" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="77" endline="77" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.compute" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Iterables'
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.0-rc.5/providers/glesys/src/main/java/org/jclouds/glesys/compute/functions/ServerDetailsToNodeMetadata.java">
+<violation beginline="19" endline="151" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.6.0-rc.5/providers/glesys/src/main/java/org/jclouds/glesys/options/CreateServerOptions.java">
+<violation beginline="19" endline="134" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.glesys.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+</pmd>
